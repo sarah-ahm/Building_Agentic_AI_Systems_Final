@@ -10,7 +10,7 @@ from __future__ import annotations
 import os
 from dataclasses import dataclass
 
-DEFAULT_MODEL = "gemini-2.5-flash"
+DEFAULT_MODEL = "gemini-3.1-flash-lite"
 DEFAULT_EMBED_MODEL = "gemini-embedding-001"
 
 # Files we treat as source. Kept small on purpose (the tool is language-agnostic

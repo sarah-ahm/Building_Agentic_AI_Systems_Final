@@ -11,3 +11,4 @@ out_injected/
 .reposcribe_state.json
 # cloned target repo (pulled at runtime in Colab)
 /lwc
+/demo

@@ -91,7 +91,7 @@ doesn't need cross-agent negotiation. These are noted as natural extensions.
 ## Model / provider choice
 
 **Google Gemini** via the `google-genai` SDK — the provider used throughout the course.
-Generation defaults to **`gemini-2.5-flash`** (fast, cheap, strong at structured output);
+Generation defaults to **`gemini-3.1-flash-lite`**;
 embeddings use **`gemini-embedding-001`** (lab08). Both are overridable via `GEMINI_MODEL`
 / `GEMINI_EMBED_MODEL`. Temperature is 0 for reproducible structured output. The task is
 low-volume (a handful of calls per run), so cost and rate limits are non-issues; the retry
