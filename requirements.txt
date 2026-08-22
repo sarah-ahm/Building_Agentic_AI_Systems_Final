@@ -1,0 +1,9 @@
+# RepoScribe dependencies (all pure-Python or broad-wheel; no faiss).
+# Mirrors the course labs: google-genai + pydantic + python-dotenv + numpy.
+google-genai>=1.0.0
+pydantic>=2.0
+python-dotenv>=1.0
+numpy>=1.24
+tree-sitter>=0.23
+tree-sitter-language-pack>=1.0
+pytest>=8.0

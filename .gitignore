@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.venv/
+out/
+out_injected/
+.reposcribe_state.json
+# cloned target repo (pulled at runtime in Colab)
+/lwc
